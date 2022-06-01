@@ -4,9 +4,7 @@
 	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" 
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
 	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" 
-	id="WebApp_ID" version="2.5">
- 
-  <display-name>JSF Internationalization</display-name>
+	id="WebApp_ID" version="2.5">  
  
   <!-- Change to "Production" when you are ready to deploy -->
   <context-param>
@@ -29,7 +27,7 @@
   <!-- Map these files with JSF -->
   <servlet-mapping>
     <servlet-name>Faces Servlet</servlet-name>
-    <url-pattern>/faces/*</url-pattern>
+    <url-pattern>/faces/*</url-pattern>    
   </servlet-mapping>
   <servlet-mapping>
     <servlet-name>Faces Servlet</servlet-name>
